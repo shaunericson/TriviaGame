@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+@File   : index.html.html
+@Author :  ({__email})
+@Link   : 
+@Date   : 8/24/2018, 8:31:43 AM
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Myerweb Reset -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" /> -->
+    
+    <!-- Bootstrap CSS CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Project Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap JS CDN -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
+    <!-- Project JS -->
+    <script src="./assets/javascript/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="header">Totally Trivial Trivia</h1>
+    </header>
+    
+    <div id="main-area">
+        <p>Time Remaining: <span id="timer">30</span> seconds</p>
+
+        <p>How many NBA championships did Michael Jordan win?</p>
+        <form>
+            <input type="radio" name="nba" value="6" id="nba-6"> 6
+            <input type="radio" name="nba" value="5" id="nba-5"> 5
+            <input type="radio" name="nba" value="7" id="nba-7"> 7
+            <input type="radio" name="nba" value="4" id="nba-4"> 4
+        </form>
+        <div id="nba-results"></div>
+
+        <p>How old is David Grohl?</p>
+        <form>
+            <input type="radio" name="david" value="46" id="david-46"> 46
+            <input type="radio" name="david" value="49" id="david-49"> 49
+            <input type="radio" name="david" value="41" id="david-41"> 41
+            <input type="radio" name="david" value="50" id="david-50"> 50
+        </form>
+        <div id="david-results"></div>
+
+        <p>What is the zip code for the Gaslamp Quarter</p>
+        <form>
+            <input type="radio" name="gaslamp" value="92110" id="gaslamp-92110"> 92110
+            <input type="radio" name="gaslamp" value="92123" id="gaslamp-92123"> 92123
+            <input type="radio" name="gaslamp" value="92431" id="gaslamp-92431"> 92431
+            <input type="radio" name="gaslamp" value="92101" id="gaslamp-92101"> 92101
+        </form>
+        <div id="gaslamp-results"></div>
+
+    </div>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
